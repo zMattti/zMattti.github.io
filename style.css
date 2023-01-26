@@ -1,0 +1,64 @@
+* {
+    font-family: "Inter";
+    user-select: none;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.title {
+    transform: translateY(-100px);
+    display: inline-block;
+    text-align: center;
+    font-size: 10em;
+    align-self: center;
+    font-weight: bold;
+    color: #860000;
+    text-shadow: 2px 2px rgb(77, 0, 0);
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 6px;
+    transition: font-size 0.5s ease-in-out;
+}
+
+nav {
+    background-color: transparent;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.nav-link:hover {
+    background-color: rgb(15, 15, 15);
+    transform: translateY(1px);
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
